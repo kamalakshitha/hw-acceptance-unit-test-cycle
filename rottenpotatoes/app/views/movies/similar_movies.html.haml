@@ -1,6 +1,6 @@
 %h2 Similar Movies as 
 
-%table.table-striped.col-md-10#movies
+%table#movies
   %thead
     %tr
       %th{:class => @title_header}= link_to 'Movie Title', movies_path(:sort => 'title', :ratings => @selected_ratings), :id => 'title_header'
